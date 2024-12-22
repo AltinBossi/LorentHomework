@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kyçja si Përdorues</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1>Kyçja si Përdorues</h1>
+    <form action="login.php" method="POST">
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="fjalkalimi">Fjalëkalimi:</label><br>
+        <input type="password" id="fjalkalimi" name="fjalkalimi" required><br><br>
+        
+        <input type="submit" value="Kyçu">
+        <a href="register.html">register</a>
+    </form>
+    <h1>Regjistrimi i Përdoruesit</h1>
+    <form action="register.php" method="POST">
+        <label for="emri">Emri:</label><br>
+        <input type="text" id="emri" name="emri" required><br><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="fjalkalimi">Fjalëkalimi:</label><br>
+        <input type="password" id="fjalkalimi" name="fjalkalimi" required><br><br>
+        
+        <input type="submit" value="Regjistrohu">
+    </form>
+</body>
+</html>
